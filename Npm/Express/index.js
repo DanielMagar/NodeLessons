@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require("fs");
 const app = express();
 
+// defining port custom port number
 const PORT = 5000;
 app.get('/', function(req, res){
     res.send('hello express and node js')
